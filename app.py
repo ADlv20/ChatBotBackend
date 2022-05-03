@@ -7,8 +7,8 @@ app = Flask(__name__)
 @app.route('/', methods=["GET", "POST"])
 def home():
     data = {
-        "Modules": 15,
-        "Subject": "Data Structures and Algorithms",
+        "modules": 15,
+        "subject": "Data Structures and Algorithms",
     }
     return jsonify(data)
 
